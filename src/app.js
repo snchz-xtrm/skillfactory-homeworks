@@ -9,3 +9,17 @@ isNaN(userValue) && typeof userValue !== NaN
   : userValue % 2
     ? console.log('Ваше число нечетное')
     : console.log('Ваше число четное')
+
+
+// // // // // //
+//  Задание 2  //
+// // // // // //
+
+const x = undefined;
+
+switch(typeof x) {
+  case 'number': {console.log('x - number'); break;}
+  case 'string': {console.log('x - string'); break;}
+  case 'boolean': {console.log('x - boolean'); break;}
+  default: {console.log('x - undefined'); break;}
+}
