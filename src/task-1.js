@@ -8,10 +8,10 @@
 // Если передано не число, выведите: «Упс, кажется, вы ошиблись».
 // *NaN, хоть и относится к типу Number, числом не является. Добавьте отдельную проверку для этого значения.
 
-const userValue = +prompt('Пожалуйста, введите ваше число')
+const userValue = +prompt('Пожалуйста, введите ваше число');
 
-isNaN(userValue) && typeof userValue !== NaN
-  ? console.log('Упс, похоже, вы ошиблись')
-  : userValue % 2
-    ? console.log('Ваше число нечетное')
-    : console.log('Ваше число четное')
+isNaN(userValue) && typeof userValue !== NaN ?
+  console.log('Упс, похоже, вы ошиблись') :
+  userValue % 2 ?
+    console.log('Ваше число нечетное') :
+    console.log('Ваше число четное');

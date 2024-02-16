@@ -19,5 +19,6 @@ module.exports = {
     ],
     'require-jsdoc': 0,
     'no-unused-vars': 1,
+    'block-spacing': 0,
   },
 };
