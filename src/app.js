@@ -17,9 +17,9 @@ isNaN(userValue) && typeof userValue !== NaN
 
 const x = undefined;
 
-switch(typeof x) {
-  case 'number': {console.log('x - number'); break;}
-  case 'string': {console.log('x - string'); break;}
-  case 'boolean': {console.log('x - boolean'); break;}
-  default: {console.log('x - undefined'); break;}
+switch (typeof x) {
+  case 'number': { console.log('x - число'); break; }
+  case 'string': { console.log('x - строка'); break; }
+  case 'boolean': { console.log('x - логический тип'); break; }
+  default: { console.log('x - не определен'); break; }
 }
